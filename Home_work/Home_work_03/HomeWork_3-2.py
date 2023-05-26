@@ -15,7 +15,7 @@ while True:
         print(x)
         break
     if (x + i) and (x - i) in lst:
-        print(f"{x + i} или {x - i}")
+        print(f"{x - i} или {x + i}")
         break
     if x + i in lst:
         print(x + i)
