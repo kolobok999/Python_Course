@@ -1,0 +1,1 @@
+ange(len(list1) - 1)
