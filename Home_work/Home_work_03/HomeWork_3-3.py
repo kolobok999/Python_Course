@@ -51,14 +51,12 @@ ru = {
 }
 word = input("Введите английское слово: ").upper()
 res = 0
-
 for s in word:
-    res = res + int(en.get(s))
+    res += int(en.get(s))
 print(res)
 
-word = input("Введите английское слово: ").upper()
+word = input("Введите русское слово слово: ").upper()
 res = 0
-
 for s in word:
-    res = res + int(ru.get(s))
+    res += int(ru.get(s))
 print(res)
